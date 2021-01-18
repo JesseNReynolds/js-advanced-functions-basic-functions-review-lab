@@ -31,7 +31,7 @@ const Calculator = {
 
 function actionApplyer(startingInt, arrayOfFunctions) {
     if (arrayOfFunctions !== []) {
-        return array.reduce(function(total,element) {
+        return arrayOfFunctions.reduce(function(total, element) {
             return element(total)
         }, int)
     } else {
