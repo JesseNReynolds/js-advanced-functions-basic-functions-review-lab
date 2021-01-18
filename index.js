@@ -30,7 +30,7 @@ const Calculator = {
 }
 
 function actionApplyer(startingInt, arrayOfFunctions) {
-    if (arrayOfFuntions !== []) {
+    if (arrayOfFunctions !== []) {
         return array.reduce(function(total,element) {
             return element(total)
         }, int)
